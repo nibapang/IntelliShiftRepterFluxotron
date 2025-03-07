@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8BA8BB66C68065B87800B8C /* Pods_IntelliShiftRepterFluxotron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D27D7BEB91A90D7BB8A242 /* Pods_IntelliShiftRepterFluxotron.framework */; };
+		E9DA1AFC2D7AD65C00245362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1AFB2D7AD65C00245362 /* AppDelegate.swift */; };
+		E9DA1AFE2D7AD65C00245362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1AFD2D7AD65C00245362 /* SceneDelegate.swift */; };
+		E9DA1B002D7AD65C00245362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1AFF2D7AD65C00245362 /* ViewController.swift */; };
+		E9DA1B032D7AD65C00245362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B012D7AD65C00245362 /* Main.storyboard */; };
+		E9DA1B052D7AD65F00245362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B042D7AD65F00245362 /* Assets.xcassets */; };
+		E9DA1B082D7AD65F00245362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B062D7AD65F00245362 /* LaunchScreen.storyboard */; };
+		E9DA1B132D7AD66000245362 /* IntelliShiftRepterFluxotronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B122D7AD66000245362 /* IntelliShiftRepterFluxotronTests.swift */; };
+		E9DA1B1D2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B1C2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.swift */; };
+		E9DA1B1F2D7AD66000245362 /* IntelliShiftRepterFluxotronUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B1E2D7AD66000245362 /* IntelliShiftRepterFluxotronUITestsLaunchTests.swift */; };
+		E9DA1B2C2D7AD6E300245362 /* WowDino-G33vP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B2B2D7AD6E300245362 /* WowDino-G33vP.ttf */; };
+		E9DA1B2E2D7AD74800245362 /* FluxoPatternHuntGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B2D2D7AD74800245362 /* FluxoPatternHuntGameVC.swift */; };
+		E9DA1B312D7AD83000245362 /* FluxoBingoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B2F2D7AD83000245362 /* FluxoBingoCell.swift */; };
+		E9DA1B322D7AD83000245362 /* FluxoBingoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B302D7AD83000245362 /* FluxoBingoCell.xib */; };
+		E9DA1B342D7AD86C00245362 /* FluxNumberBingoGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B332D7AD86C00245362 /* FluxNumberBingoGameVC.swift */; };
+		E9DA1B362D7AD88700245362 /* FluxWordSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B352D7AD88700245362 /* FluxWordSearchVC.swift */; };
+		E9DA1B392D7AD8B200245362 /* FluxWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B372D7AD8B200245362 /* FluxWordCell.swift */; };
+		E9DA1B3A2D7AD8B200245362 /* FluxWordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B382D7AD8B200245362 /* FluxWordCell.xib */; };
+		E9DA1B3D2D7AD8D900245362 /* FluxWordListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B3B2D7AD8D900245362 /* FluxWordListCell.swift */; };
+		E9DA1B3E2D7AD8D900245362 /* FluxWordListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B3C2D7AD8D900245362 /* FluxWordListCell.xib */; };
+		E9DA1B402D7AD90F00245362 /* FluxSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B3F2D7AD90F00245362 /* FluxSettingVC.swift */; };
+		E9DA1B422D7AD93600245362 /* FluxAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B412D7AD93600245362 /* FluxAboutVC.swift */; };
+		E9DA1B442D7AD94E00245362 /* FluxFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B432D7AD94E00245362 /* FluxFeedbackVC.swift */; };
+		E9DA1B462D7AD96200245362 /* FluxPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B452D7AD96200245362 /* FluxPrivacyVC.swift */; };
+		E9DA1B4A2D7ADD7B00245362 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B492D7ADD7B00245362 /* UIViewController+Tool.m */; };
+		E9DA1B4C2D7ADE7E00245362 /* FluxStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA1B4B2D7ADE7E00245362 /* FluxStartVC.swift */; };
+		E9DA1B4F2D7AE31F00245362 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B4E2D7AE31F00245362 /* GoogleService-Info.plist */; };
+		E9DA1B562D7AE36400245362 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DA1B582D7AE36400245362 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DA1B0F2D7AD66000245362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DA1AF02D7AD65B00245362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DA1AF72D7AD65B00245362;
+			remoteInfo = IntelliShiftRepterFluxotron;
+		};
+		E9DA1B192D7AD66000245362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DA1AF02D7AD65B00245362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DA1AF72D7AD65B00245362;
+			remoteInfo = IntelliShiftRepterFluxotron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F219336CB65ECFC69D545FD /* Pods-IntelliShiftRepterFluxotron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliShiftRepterFluxotron.release.xcconfig"; path = "Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron.release.xcconfig"; sourceTree = "<group>"; };
+		9DB163CD39F6E2F35D327158 /* Pods-IntelliShiftRepterFluxotron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliShiftRepterFluxotron.debug.xcconfig"; path = "Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D27D7BEB91A90D7BB8A242 /* Pods_IntelliShiftRepterFluxotron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliShiftRepterFluxotron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DA1AF82D7AD65B00245362 /* IntelliShiftRepterFluxotron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliShiftRepterFluxotron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DA1AFB2D7AD65C00245362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9DA1AFD2D7AD65C00245362 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9DA1AFF2D7AD65C00245362 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9DA1B022D7AD65C00245362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9DA1B042D7AD65F00245362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9DA1B072D7AD65F00245362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9DA1B092D7AD65F00245362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DA1B0E2D7AD66000245362 /* IntelliShiftRepterFluxotronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliShiftRepterFluxotronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DA1B122D7AD66000245362 /* IntelliShiftRepterFluxotronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliShiftRepterFluxotronTests.swift; sourceTree = "<group>"; };
+		E9DA1B182D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliShiftRepterFluxotronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DA1B1C2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliShiftRepterFluxotronUITests.swift; sourceTree = "<group>"; };
+		E9DA1B1E2D7AD66000245362 /* IntelliShiftRepterFluxotronUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliShiftRepterFluxotronUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9DA1B2B2D7AD6E300245362 /* WowDino-G33vP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WowDino-G33vP.ttf"; sourceTree = "<group>"; };
+		E9DA1B2D2D7AD74800245362 /* FluxoPatternHuntGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxoPatternHuntGameVC.swift; sourceTree = "<group>"; };
+		E9DA1B2F2D7AD83000245362 /* FluxoBingoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxoBingoCell.swift; sourceTree = "<group>"; };
+		E9DA1B302D7AD83000245362 /* FluxoBingoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluxoBingoCell.xib; sourceTree = "<group>"; };
+		E9DA1B332D7AD86C00245362 /* FluxNumberBingoGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxNumberBingoGameVC.swift; sourceTree = "<group>"; };
+		E9DA1B352D7AD88700245362 /* FluxWordSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWordSearchVC.swift; sourceTree = "<group>"; };
+		E9DA1B372D7AD8B200245362 /* FluxWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWordCell.swift; sourceTree = "<group>"; };
+		E9DA1B382D7AD8B200245362 /* FluxWordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluxWordCell.xib; sourceTree = "<group>"; };
+		E9DA1B3B2D7AD8D900245362 /* FluxWordListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWordListCell.swift; sourceTree = "<group>"; };
+		E9DA1B3C2D7AD8D900245362 /* FluxWordListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluxWordListCell.xib; sourceTree = "<group>"; };
+		E9DA1B3F2D7AD90F00245362 /* FluxSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSettingVC.swift; sourceTree = "<group>"; };
+		E9DA1B412D7AD93600245362 /* FluxAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxAboutVC.swift; sourceTree = "<group>"; };
+		E9DA1B432D7AD94E00245362 /* FluxFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxFeedbackVC.swift; sourceTree = "<group>"; };
+		E9DA1B452D7AD96200245362 /* FluxPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxPrivacyVC.swift; sourceTree = "<group>"; };
+		E9DA1B472D7ADD7A00245362 /* IntelliShiftRepterFluxotron-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntelliShiftRepterFluxotron-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9DA1B482D7ADD7B00245362 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		E9DA1B492D7ADD7B00245362 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		E9DA1B4B2D7ADE7E00245362 /* FluxStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxStartVC.swift; sourceTree = "<group>"; };
+		E9DA1B4D2D7AE14D00245362 /* IntelliShiftRepterFluxotron.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntelliShiftRepterFluxotron.entitlements; sourceTree = "<group>"; };
+		E9DA1B4E2D7AE31F00245362 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9DA1B502D7AE32E00245362 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		E9DA1B512D7AE32E00245362 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E9DA1B522D7AE34E00245362 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		E9DA1B532D7AE34E00245362 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E9DA1B572D7AE36400245362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9DA1B592D7AE36700245362 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9DA1B5A2D7AE36800245362 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DA1AF52D7AD65B00245362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BA8BB66C68065B87800B8C /* Pods_IntelliShiftRepterFluxotron.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B0B2D7AD66000245362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B152D7AD66000245362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF0D460F5944DDC229D9708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D27D7BEB91A90D7BB8A242 /* Pods_IntelliShiftRepterFluxotron.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B814CEBEA2FCE8BC16D744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DB163CD39F6E2F35D327158 /* Pods-IntelliShiftRepterFluxotron.debug.xcconfig */,
+				4F219336CB65ECFC69D545FD /* Pods-IntelliShiftRepterFluxotron.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9DA1AEF2D7AD65B00245362 = {
+			isa = PBXGroup;
+			children = (
+				E9DA1AFA2D7AD65C00245362 /* IntelliShiftRepterFluxotron */,
+				E9DA1B112D7AD66000245362 /* IntelliShiftRepterFluxotronTests */,
+				E9DA1B1B2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests */,
+				E9DA1AF92D7AD65B00245362 /* Products */,
+				D4B814CEBEA2FCE8BC16D744 /* Pods */,
+				CDF0D460F5944DDC229D9708 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DA1AF92D7AD65B00245362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA1AF82D7AD65B00245362 /* IntelliShiftRepterFluxotron.app */,
+				E9DA1B0E2D7AD66000245362 /* IntelliShiftRepterFluxotronTests.xctest */,
+				E9DA1B182D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DA1AFA2D7AD65C00245362 /* IntelliShiftRepterFluxotron */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA1B4E2D7AE31F00245362 /* GoogleService-Info.plist */,
+				E9DA1B4D2D7AE14D00245362 /* IntelliShiftRepterFluxotron.entitlements */,
+				E9DA1B2B2D7AD6E300245362 /* WowDino-G33vP.ttf */,
+				E9DA1AFB2D7AD65C00245362 /* AppDelegate.swift */,
+				E9DA1AFD2D7AD65C00245362 /* SceneDelegate.swift */,
+				E9DA1AFF2D7AD65C00245362 /* ViewController.swift */,
+				E9DA1B2D2D7AD74800245362 /* FluxoPatternHuntGameVC.swift */,
+				E9DA1B2F2D7AD83000245362 /* FluxoBingoCell.swift */,
+				E9DA1B302D7AD83000245362 /* FluxoBingoCell.xib */,
+				E9DA1B332D7AD86C00245362 /* FluxNumberBingoGameVC.swift */,
+				E9DA1B352D7AD88700245362 /* FluxWordSearchVC.swift */,
+				E9DA1B372D7AD8B200245362 /* FluxWordCell.swift */,
+				E9DA1B382D7AD8B200245362 /* FluxWordCell.xib */,
+				E9DA1B3B2D7AD8D900245362 /* FluxWordListCell.swift */,
+				E9DA1B3C2D7AD8D900245362 /* FluxWordListCell.xib */,
+				E9DA1B3F2D7AD90F00245362 /* FluxSettingVC.swift */,
+				E9DA1B412D7AD93600245362 /* FluxAboutVC.swift */,
+				E9DA1B432D7AD94E00245362 /* FluxFeedbackVC.swift */,
+				E9DA1B452D7AD96200245362 /* FluxPrivacyVC.swift */,
+				E9DA1B4B2D7ADE7E00245362 /* FluxStartVC.swift */,
+				E9DA1B582D7AE36400245362 /* Localizable.strings */,
+				E9DA1B482D7ADD7B00245362 /* UIViewController+Tool.h */,
+				E9DA1B492D7ADD7B00245362 /* UIViewController+Tool.m */,
+				E9DA1B012D7AD65C00245362 /* Main.storyboard */,
+				E9DA1B042D7AD65F00245362 /* Assets.xcassets */,
+				E9DA1B062D7AD65F00245362 /* LaunchScreen.storyboard */,
+				E9DA1B092D7AD65F00245362 /* Info.plist */,
+				E9DA1B472D7ADD7A00245362 /* IntelliShiftRepterFluxotron-Bridging-Header.h */,
+			);
+			path = IntelliShiftRepterFluxotron;
+			sourceTree = "<group>";
+		};
+		E9DA1B112D7AD66000245362 /* IntelliShiftRepterFluxotronTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA1B122D7AD66000245362 /* IntelliShiftRepterFluxotronTests.swift */,
+			);
+			path = IntelliShiftRepterFluxotronTests;
+			sourceTree = "<group>";
+		};
+		E9DA1B1B2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA1B1C2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.swift */,
+				E9DA1B1E2D7AD66000245362 /* IntelliShiftRepterFluxotronUITestsLaunchTests.swift */,
+			);
+			path = IntelliShiftRepterFluxotronUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DA1AF72D7AD65B00245362 /* IntelliShiftRepterFluxotron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DA1B222D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotron" */;
+			buildPhases = (
+				7C30F2AB7EFC85D0060F67DC /* [CP] Check Pods Manifest.lock */,
+				E9DA1AF42D7AD65B00245362 /* Sources */,
+				E9DA1AF52D7AD65B00245362 /* Frameworks */,
+				E9DA1AF62D7AD65B00245362 /* Resources */,
+				C96E862135F924814281D53C /* [CP] Embed Pods Frameworks */,
+				42AB304678AC49D57C853074 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelliShiftRepterFluxotron;
+			productName = IntelliShiftRepterFluxotron;
+			productReference = E9DA1AF82D7AD65B00245362 /* IntelliShiftRepterFluxotron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9DA1B0D2D7AD66000245362 /* IntelliShiftRepterFluxotronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DA1B252D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotronTests" */;
+			buildPhases = (
+				E9DA1B0A2D7AD66000245362 /* Sources */,
+				E9DA1B0B2D7AD66000245362 /* Frameworks */,
+				E9DA1B0C2D7AD66000245362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DA1B102D7AD66000245362 /* PBXTargetDependency */,
+			);
+			name = IntelliShiftRepterFluxotronTests;
+			productName = IntelliShiftRepterFluxotronTests;
+			productReference = E9DA1B0E2D7AD66000245362 /* IntelliShiftRepterFluxotronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9DA1B172D7AD66000245362 /* IntelliShiftRepterFluxotronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DA1B282D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotronUITests" */;
+			buildPhases = (
+				E9DA1B142D7AD66000245362 /* Sources */,
+				E9DA1B152D7AD66000245362 /* Frameworks */,
+				E9DA1B162D7AD66000245362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DA1B1A2D7AD66000245362 /* PBXTargetDependency */,
+			);
+			name = IntelliShiftRepterFluxotronUITests;
+			productName = IntelliShiftRepterFluxotronUITests;
+			productReference = E9DA1B182D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DA1AF02D7AD65B00245362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E9DA1AF72D7AD65B00245362 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E9DA1B0D2D7AD66000245362 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9DA1AF72D7AD65B00245362;
+					};
+					E9DA1B172D7AD66000245362 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9DA1AF72D7AD65B00245362;
+					};
+				};
+			};
+			buildConfigurationList = E9DA1AF32D7AD65B00245362 /* Build configuration list for PBXProject "IntelliShiftRepterFluxotron" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				de,
+			);
+			mainGroup = E9DA1AEF2D7AD65B00245362;
+			productRefGroup = E9DA1AF92D7AD65B00245362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DA1AF72D7AD65B00245362 /* IntelliShiftRepterFluxotron */,
+				E9DA1B0D2D7AD66000245362 /* IntelliShiftRepterFluxotronTests */,
+				E9DA1B172D7AD66000245362 /* IntelliShiftRepterFluxotronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DA1AF62D7AD65B00245362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DA1B3E2D7AD8D900245362 /* FluxWordListCell.xib in Resources */,
+				E9DA1B4F2D7AE31F00245362 /* GoogleService-Info.plist in Resources */,
+				E9DA1B2C2D7AD6E300245362 /* WowDino-G33vP.ttf in Resources */,
+				E9DA1B3A2D7AD8B200245362 /* FluxWordCell.xib in Resources */,
+				E9DA1B562D7AE36400245362 /* Localizable.strings in Resources */,
+				E9DA1B082D7AD65F00245362 /* LaunchScreen.storyboard in Resources */,
+				E9DA1B322D7AD83000245362 /* FluxoBingoCell.xib in Resources */,
+				E9DA1B052D7AD65F00245362 /* Assets.xcassets in Resources */,
+				E9DA1B032D7AD65C00245362 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B0C2D7AD66000245362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B162D7AD66000245362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42AB304678AC49D57C853074 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C30F2AB7EFC85D0060F67DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelliShiftRepterFluxotron-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96E862135F924814281D53C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntelliShiftRepterFluxotron/Pods-IntelliShiftRepterFluxotron-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DA1AF42D7AD65B00245362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DA1B3D2D7AD8D900245362 /* FluxWordListCell.swift in Sources */,
+				E9DA1B002D7AD65C00245362 /* ViewController.swift in Sources */,
+				E9DA1B4A2D7ADD7B00245362 /* UIViewController+Tool.m in Sources */,
+				E9DA1B402D7AD90F00245362 /* FluxSettingVC.swift in Sources */,
+				E9DA1B4C2D7ADE7E00245362 /* FluxStartVC.swift in Sources */,
+				E9DA1B422D7AD93600245362 /* FluxAboutVC.swift in Sources */,
+				E9DA1B442D7AD94E00245362 /* FluxFeedbackVC.swift in Sources */,
+				E9DA1B312D7AD83000245362 /* FluxoBingoCell.swift in Sources */,
+				E9DA1B342D7AD86C00245362 /* FluxNumberBingoGameVC.swift in Sources */,
+				E9DA1B362D7AD88700245362 /* FluxWordSearchVC.swift in Sources */,
+				E9DA1B2E2D7AD74800245362 /* FluxoPatternHuntGameVC.swift in Sources */,
+				E9DA1B392D7AD8B200245362 /* FluxWordCell.swift in Sources */,
+				E9DA1AFC2D7AD65C00245362 /* AppDelegate.swift in Sources */,
+				E9DA1AFE2D7AD65C00245362 /* SceneDelegate.swift in Sources */,
+				E9DA1B462D7AD96200245362 /* FluxPrivacyVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B0A2D7AD66000245362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DA1B132D7AD66000245362 /* IntelliShiftRepterFluxotronTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA1B142D7AD66000245362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DA1B1D2D7AD66000245362 /* IntelliShiftRepterFluxotronUITests.swift in Sources */,
+				E9DA1B1F2D7AD66000245362 /* IntelliShiftRepterFluxotronUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DA1B102D7AD66000245362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DA1AF72D7AD65B00245362 /* IntelliShiftRepterFluxotron */;
+			targetProxy = E9DA1B0F2D7AD66000245362 /* PBXContainerItemProxy */;
+		};
+		E9DA1B1A2D7AD66000245362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DA1AF72D7AD65B00245362 /* IntelliShiftRepterFluxotron */;
+			targetProxy = E9DA1B192D7AD66000245362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9DA1B012D7AD65C00245362 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DA1B022D7AD65C00245362 /* Base */,
+				E9DA1B502D7AE32E00245362 /* pt-BR */,
+				E9DA1B522D7AE34E00245362 /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9DA1B062D7AD65F00245362 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DA1B072D7AD65F00245362 /* Base */,
+				E9DA1B512D7AE32E00245362 /* pt-BR */,
+				E9DA1B532D7AE34E00245362 /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9DA1B582D7AE36400245362 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DA1B572D7AE36400245362 /* en */,
+				E9DA1B592D7AE36700245362 /* de */,
+				E9DA1B5A2D7AE36800245362 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DA1B202D7AD66000245362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9DA1B212D7AD66000245362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9DA1B232D7AD66000245362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB163CD39F6E2F35D327158 /* Pods-IntelliShiftRepterFluxotron.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IntelliShiftRepterFluxotron/IntelliShiftRepterFluxotron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliShiftRepterFluxotron/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "IntelliShiftRepter Fluxotron";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IntelliShiftRepterFluxotron/IntelliShiftRepterFluxotron-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9DA1B242D7AD66000245362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F219336CB65ECFC69D545FD /* Pods-IntelliShiftRepterFluxotron.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IntelliShiftRepterFluxotron/IntelliShiftRepterFluxotron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelliShiftRepterFluxotron/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "IntelliShiftRepter Fluxotron";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IntelliShiftRepterFluxotron/IntelliShiftRepterFluxotron-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9DA1B262D7AD66000245362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliShiftRepterFluxotron.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntelliShiftRepterFluxotron";
+			};
+			name = Debug;
+		};
+		E9DA1B272D7AD66000245362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliShiftRepterFluxotron.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntelliShiftRepterFluxotron";
+			};
+			name = Release;
+		};
+		E9DA1B292D7AD66000245362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelliShiftRepterFluxotron;
+			};
+			name = Debug;
+		};
+		E9DA1B2A2D7AD66000245362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.IntelliShiftRepterFluxotronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelliShiftRepterFluxotron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DA1AF32D7AD65B00245362 /* Build configuration list for PBXProject "IntelliShiftRepterFluxotron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DA1B202D7AD66000245362 /* Debug */,
+				E9DA1B212D7AD66000245362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DA1B222D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DA1B232D7AD66000245362 /* Debug */,
+				E9DA1B242D7AD66000245362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DA1B252D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DA1B262D7AD66000245362 /* Debug */,
+				E9DA1B272D7AD66000245362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DA1B282D7AD66000245362 /* Build configuration list for PBXNativeTarget "IntelliShiftRepterFluxotronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DA1B292D7AD66000245362 /* Debug */,
+				E9DA1B2A2D7AD66000245362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DA1AF02D7AD65B00245362 /* Project object */;
+}

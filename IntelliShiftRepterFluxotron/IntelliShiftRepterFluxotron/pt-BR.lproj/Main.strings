@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Word Search"; ObjectID = "1ht-X2-rzq"; */
+"1ht-X2-rzq.text" = "Word Search";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "6Lk-5p-PtC"; */
+"6Lk-5p-PtC.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8mG-ZS-ajP"; */
+"8mG-ZS-ajP.text" = "Label";
+
+/* Class = "UILabel"; text = "Rate Us"; ObjectID = "9mA-Un-hJr"; */
+"9mA-Un-hJr.text" = "Rate Us";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "BfB-yI-H9N"; */
+"BfB-yI-H9N.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "D4N-1D-8fB"; */
+"D4N-1D-8fB.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Computer"; ObjectID = "EJt-DB-USF"; */
+"EJt-DB-USF.text" = "Computer";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "ITB-Y2-7zT"; */
+"ITB-Y2-7zT.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Pattern Hunt"; ObjectID = "IkO-TO-J4y"; */
+"IkO-TO-J4y.text" = "Pattern Hunt";
+
+/* Class = "UILabel"; text = "Number Bingo"; ObjectID = "JoY-ey-Dpc"; */
+"JoY-ey-Dpc.text" = "Number Bingo";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "L4g-TN-vP3"; */
+"L4g-TN-vP3.text" = "About Us";
+
+/* Class = "UILabel"; text = "IntelliShiftRepter Fluxotron"; ObjectID = "Mdx-6I-6Hh"; */
+"Mdx-6I-6Hh.text" = "IntelliShiftRepter Fluxotron";
+
+/* Class = "UILabel"; text = "Word Search"; ObjectID = "Mg0-Lj-ZUl"; */
+"Mg0-Lj-ZUl.text" = "Word Search";
+
+/* Class = "UIButton"; normalTitle = "Reset Game"; ObjectID = "QAl-mO-zwz"; */
+"QAl-mO-zwz.normalTitle" = "Reset Game";
+
+/* Class = "UIButton"; normalTitle = "Auto Fill"; ObjectID = "S70-MW-9rh"; */
+"S70-MW-9rh.normalTitle" = "Auto Fill";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SCy-7c-gO6"; */
+"SCy-7c-gO6.text" = "Label";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "Spa-4C-JB6"; */
+"Spa-4C-JB6.text" = "Player";
+
+/* Class = "UIButton"; normalTitle = "Let's Play"; ObjectID = "TP3-vI-Vsd"; */
+"TP3-vI-Vsd.normalTitle" = "Let's Play";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "UbX-d4-Zus"; */
+"UbX-d4-Zus.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "cal-xZ-U9g"; */
+"cal-xZ-U9g.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Submit your ratings"; ObjectID = "cvr-q7-pJz"; */
+"cvr-q7-pJz.normalTitle" = "Submit your ratings";
+
+/* Class = "UITextView"; text = "Welcome to IntelliShiftRepter Fluxotron, a dynamic and brain-stimulating gaming hub designed to challenge and entertain players of all ages. Our app offers a unique collection of three engaging games—Pattern Hunt, Number Bingo, and Word Search—each crafted to enhance cognitive skills, strategic thinking, and pattern recognition.\n\nPattern Hunt pushes the limits of logical reasoning by challenging players to identify missing elements in numerical and symbolic sequences. With multiple difficulty levels, this game sharpens problem-solving skills while keeping players engaged with a variety of pattern-based challenges.\n\nNumber Bingo brings an exciting twist to the classic bingo game, where players compete against the computer to form five lines on a 5x5 grid. Strategy and quick decision-making are key to victory, making it a thrilling game for casual and competitive players alike.\n\nWord Search offers a fun and interactive way to test vocabulary and observation skills. With a 10x10 grid filled with hidden words, players swipe to uncover words placed in various directions. The game rewards keen-eyed players who can complete the list and achieve victory.\n\nAt IntelliShiftRepter Fluxotron, we believe in blending fun with mental stimulation. Whether you enjoy number puzzles, strategic board games, or classic word searches, our app provides an immersive experience with intuitive controls, vibrant visuals, and smooth animations."; ObjectID = "ews-FN-39c"; */
+"ews-FN-39c.text" = "Welcome to IntelliShiftRepter Fluxotron, a dynamic and brain-stimulating gaming hub designed to challenge and entertain players of all ages. Our app offers a unique collection of three engaging games—Pattern Hunt, Number Bingo, and Word Search—each crafted to enhance cognitive skills, strategic thinking, and pattern recognition.\n\nPattern Hunt pushes the limits of logical reasoning by challenging players to identify missing elements in numerical and symbolic sequences. With multiple difficulty levels, this game sharpens problem-solving skills while keeping players engaged with a variety of pattern-based challenges.\n\nNumber Bingo brings an exciting twist to the classic bingo game, where players compete against the computer to form five lines on a 5x5 grid. Strategy and quick decision-making are key to victory, making it a thrilling game for casual and competitive players alike.\n\nWord Search offers a fun and interactive way to test vocabulary and observation skills. With a 10x10 grid filled with hidden words, players swipe to uncover words placed in various directions. The game rewards keen-eyed players who can complete the list and achieve victory.\n\nAt IntelliShiftRepter Fluxotron, we believe in blending fun with mental stimulation. Whether you enjoy number puzzles, strategic board games, or classic word searches, our app provides an immersive experience with intuitive controls, vibrant visuals, and smooth animations.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fKY-sO-BHA"; */
+"fKY-sO-BHA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Reset Game"; ObjectID = "lQE-zA-pKP"; */
+"lQE-zA-pKP.normalTitle" = "Reset Game";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "mli-VJ-ZJL"; */
+"mli-VJ-ZJL.normalTitle" = "Back";

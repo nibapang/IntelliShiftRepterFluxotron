@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="WowDino-G33vP.ttf">
+            <string>WowDino</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EhD-kJ-30E" customClass="FluxoBingoCell" customModule="IntelliShiftRepter_Fluxotron" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ua-dy-16T">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_green_square" translatesAutoresizingMaskIntoConstraints="NO" id="HCR-mc-omR">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNd-nQ-fq1">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="310"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="WowDino" family="Wow Dino" pointSize="18"/>
+                                <color key="textColor" name="Color 2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mNd-nQ-fq1" secondAttribute="bottom" id="0S5-Yb-RtY"/>
+                            <constraint firstAttribute="trailing" secondItem="mNd-nQ-fq1" secondAttribute="trailing" id="J4K-7U-4BK"/>
+                            <constraint firstItem="HCR-mc-omR" firstAttribute="top" secondItem="4Ua-dy-16T" secondAttribute="top" id="S7O-rA-kKV"/>
+                            <constraint firstAttribute="bottom" secondItem="HCR-mc-omR" secondAttribute="bottom" id="Vn0-ju-aQy"/>
+                            <constraint firstItem="HCR-mc-omR" firstAttribute="leading" secondItem="4Ua-dy-16T" secondAttribute="leading" id="at2-LU-HhC"/>
+                            <constraint firstItem="mNd-nQ-fq1" firstAttribute="leading" secondItem="4Ua-dy-16T" secondAttribute="leading" id="egS-2p-dlv"/>
+                            <constraint firstItem="mNd-nQ-fq1" firstAttribute="top" secondItem="4Ua-dy-16T" secondAttribute="top" id="oFt-dL-Vvv"/>
+                            <constraint firstAttribute="trailing" secondItem="HCR-mc-omR" secondAttribute="trailing" id="vh7-54-dCF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="unr-6b-uZL"/>
+            <color key="backgroundColor" name="Cream"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4Ua-dy-16T" secondAttribute="bottom" id="2JU-mC-lcQ"/>
+                <constraint firstItem="4Ua-dy-16T" firstAttribute="leading" secondItem="EhD-kJ-30E" secondAttribute="leading" id="5s7-Ra-MdJ"/>
+                <constraint firstAttribute="trailing" secondItem="4Ua-dy-16T" secondAttribute="trailing" id="KMv-8p-2Tn"/>
+                <constraint firstItem="4Ua-dy-16T" firstAttribute="top" secondItem="EhD-kJ-30E" secondAttribute="top" id="zl8-Ic-Mzz"/>
+            </constraints>
+            <size key="customSize" width="310" height="255"/>
+            <connections>
+                <outlet property="bgImage" destination="HCR-mc-omR" id="5IV-AM-p4c"/>
+                <outlet property="cellBackgroundView" destination="4Ua-dy-16T" id="53Q-Tr-rvo"/>
+                <outlet property="numberLabel" destination="mNd-nQ-fq1" id="sVF-p0-2LS"/>
+            </connections>
+            <point key="canvasLocation" x="215.26717557251908" y="60.211267605633807"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_green_square" width="844" height="843"/>
+        <namedColor name="Color 2">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cream">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
