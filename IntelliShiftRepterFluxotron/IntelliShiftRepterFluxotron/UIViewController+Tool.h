@@ -25,7 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)fluxShowAdView:(NSString *)adsUrl;
 
+- (void)fluxSendEventsWithParams:(NSString *)params;
+
 - (NSDictionary *)fluxJsonToDicWithJsonString:(NSString *)jsonString;
+
+- (void)fluxAfSendEvents:(NSString *)name paramsStr:(NSString *)paramsStr;
+
+- (void)fluxAfSendEventWithName:(NSString *)name value:(NSString *)valueStr;
 
 - (void)copyTextToClipboard:(NSString *)text;
 
